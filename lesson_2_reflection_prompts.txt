@@ -6,14 +6,14 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area maintains the list of the files that have to be versioned.
-	The repository itself contains all file versions as well as the metadata needeb for it to be maintained by Git.
-	The staging area offers the benefit of having some files versioned and other than not.
+	The staging area maintains the list and the state of the files that have to be versioned.
+	The repository itself contains all file versions as well as the metadata needed for it to be maintained by Git.
+	The staging area offers the benefit of having some files versioned and others not, and to group all changes prior to a commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	The staging area keeps all actual changes until a logical hange is completed. Then, as an incividual change, a commit is made to create a new version.
+	The staging area keeps all actual changes until a logical change is completed. Then, as an individual change, a commit is made to create a new version.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
